@@ -1,0 +1,188 @@
+.otziv {
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto;
+        }   
+             
+        .subtitle {
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+            color: #666;
+            font-weight: 400;
+            display: flex;
+            text-align: center;
+        }
+        
+        .reviews-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+        
+        .review-card {
+            background: #fff;
+            border-radius: 4px;
+            overflow: hidden;
+            border: 1px solid #eee;
+            transition: all 0.3s ease;
+            padding: 30px;
+            position: relative;
+        }
+        
+        .review-card:hover {
+            box-shadow: 0 5px 15px rgba(0,0,0,0.03);
+            border-color: #ddd;
+        }
+        
+        .review-header {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+        
+        .avatar {
+            font-size: 1.8rem;
+            margin-right: 15px;
+            line-height: 1;
+        }
+        
+        .reviewer-info {
+            flex: 1;
+        }
+        
+        .reviewer-name {
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: #222;
+            margin-bottom: 4px;
+        }
+        
+        .reviewer-desc {
+            font-size: 0.9rem;
+            color: #777;
+            font-weight: 400;
+        }
+        
+        .stars {
+            margin: 20px 0;
+            display: flex;
+            color: #9900ff;
+        }
+        
+        .star {
+            color: #ccc;
+            font-size: 1.1rem;
+            margin-right: 3px;
+        }
+        
+        .star.filled {
+            color: #222;
+        }
+        
+        .rating {
+            font-weight: 400;
+            color: #666;
+            margin-left: 10px;
+            font-size: 0.95rem;
+        }
+        
+        .review-content {
+            color: #444;
+            font-size: 0.95rem;
+            position: relative;
+            padding-left: 20px;
+            font-weight: 400;
+        }
+        
+        .review-content::before {
+            content: "";
+            font-family: Georgia, serif;
+            font-size: 3.5rem;
+            position: absolute;
+            left: -10px;
+            top: -25px;
+            color: #f0f0f0;
+            z-index: 1;
+        }
+        
+        .review-content p {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .review-date {
+            margin-top: 25px;
+            font-size: 0.85rem;
+            color: #999;
+            text-align: right;
+            font-style: italic;
+        }
+        
+        .section-divider {
+            height: 1px;
+            background: #eee;
+            margin: 60px 0;
+            max-width: 600px;
+            width: 100%;
+        }
+        
+        .cta-section {
+            text-align: center;
+            padding: 50px 0 0;
+        }
+        
+        .cta-title {
+            font-size: 1.6rem;
+            font-weight: 300;
+            margin-bottom: 30px;
+            color: #222;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: #fff;
+            color: #222;
+            padding: 14px 35px;
+            border-radius: 2px;
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 1rem;
+            border: 1px solid #ddd;
+            transition: all 0.3s ease;
+            letter-spacing: 0.5px;
+        }
+        
+        .cta-button:hover {
+            background: #f9f9f9;
+            border-color: #ccc;
+        }
+        
+        footer {
+            color: #999;
+            text-align: center;
+            padding: 50px 0 30px;
+            width: 100%;
+            margin-top: auto;
+            border-top: 1px solid #eee;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .reviews-container {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .subtitle {
+                font-size: 1rem;
+            }
+            
+            .review-card {
+                padding: 25px 20px;
+            }
+        }

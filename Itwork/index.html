@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Музыкальная академия</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/prais.css">
+    <link rel="stylesheet" href="css/formob.css">    
+    <link rel="stylesheet" href="css/otziv.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="logo">Melo<span>Di</span></a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
+                        <li class="nav__item"><a href="#menu" class="nav__link">Направления</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Стоимость</a></li>
+                        <li class="nav__item"><a href="#reviews" class="nav__link">Отзывы</a></li>
+                        <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle" aria-label="Меню">
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+<main class="main">
+  <section class="hero">
+    <div class="container">
+      <h1 class="hero__title">Музыкальная академия
+                <br> <span class="mel">MeloDi</span>
+                </h1>
+      <p class="hero__subtitle">Каждая мелодия – это история. Каждый звук – эмоция. В академии MeloDi мы учим не просто играть или петь, мы учим вести диалог с музыкой. Почувствуй ее глубину, пойми ее язык, вырази через нее себя. Наши педагоги станут твоими наставниками в этом удивительном путешествии. Прикоснись к волшебству звука и напиши свою собственную музыкальную главу вместе с MeloDi.</p>
+      <div class="hero__buttons">
+        <a href="#menu" class="btn btn--primary">Направления обучения</a>
+        <a href="#contacts" class="btn btn--outline">Контакты</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="menu" class="menu">
+    <div class="container">
+      <h2 class="section-title">Направления</h2>
+      <div class="menu__content active" id="coffee">
+        <div class="menu__grid">
+          <div class="menu-item">
+            <img src="media/vocal.jpg" alt="">
+            <div class="menu-item__header">
+              <h3 class="menu-item__title">Вокал</h3>
+            </div>
+            <p class="menu-item__description"></p>
+            <ul>
+              <li>Диагностика и поставновка техники</li>
+              <li>Расшерение диапозона</li>
+              <li>Подбор и расшерение репертуара</li>
+            </ul>
+
+          </div>
+          <div class="menu-item">
+            <img src="media/piano.jpg" alt="">
+            <div class="menu-item__header">
+              <h3 class="menu-item__title">Фортепиано</h3>
+
+            </div>
+            <p class="menu-item__description"></p>
+            <ul>
+              <li>Правильная посадка и постановка рук</li>
+              <li>Нотная грамота</li>
+              <li>Основы техники и развитие качества звука</li>
+            </ul>
+          </div>
+          <div class="menu-item">
+            <img src="media/bit.jpg" alt="">
+            <div class="menu-item__header">
+              <h3 class="menu-item__title">Барабаны</h3>
+
+            </div>
+            <p class="menu-item__description"></p>
+            <ul>
+              <li>Знакомство с инструментом</li>
+              <li>Техника и чувство ритма</li>
+              <li>Основы ритмики</li>
+            </ul>
+
+          </div>
+          <div class="menu-item">
+            <img src="media/gitar.jpg" alt="">
+            <div class="menu-item__header">
+              <h3 class="menu-item__title">Гитара</h3>
+
+            </div>
+            <p class="menu-item__description"></p>
+            <ul>
+              <li>Правильная посадка и постановка рук</li>
+              <li>Основы нотной грамоты и табулатур</li>
+              <li>Техники правой и левой руки</li>
+            </ul>
+
+          </div>
+          <div class="menu-item">
+            <img src="media/new.jpg" alt="">
+            <div class="menu-item__header">
+              <h3 class="menu-item__title">Скоро новое направление</h3>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="media/new.jpg" alt="">
+            <div class="menu-item__header">
+              <h3 class="menu-item__title">Скоро новое направление</h3>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about__inner">
+      </div>
+      <div class="about__content">
+        <h2 class="section-title">Стоимость</h2>
+      </div>
+      <p class="subtitle">Прейскурант на обучение 2025/2026 учебный год</p>
+    </div>
+
+    <div class="pricing-container">
+      <!-- Вокал -->
+      <div class="pricing-card">
+        <div class="card-header vocal">
+          <h2 class="instrument-name">Вокал</h2>
+          <p class="lesson-type">Индивидуальные занятия/
+            <br> Групповые занятия</p>
+        </div>
+        <div class="card-body">
+          <div class="price-plan">
+            <span class="sessions">4 занятия</span>
+            <span class="price">2 200 ₽/1 600 ₽<span class="per-month">8 800 ₽/мес(6 400 ₽/мес)</span></span>
+          </div>
+          <div class="price-plan">
+            <span class="sessions">8 занятий</span>
+            <span class="price">1 950 ₽/1 200 ₽<span class="per-month">15 600 ₽/мес(9 600 ₽/мес)</span></span>
+          </div>
+          <div class="pro-level">
+            Проф. уровень: +15% к тарифу/Подготовка к поступлению
+            <br> Только индивидуальные занятия
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- Фортепиано -->
+      <div class="pricing-card">
+        <div class="card-header piano">
+          <h2 class="instrument-name">Фортепиано</h2>
+          <p class="lesson-type">Индивидуальные занятия</p>
+        </div>
+        <div class="card-body">
+          <div class="price-plan">
+            <span class="sessions">4 занятия</span>
+            <span class="price">2 100 ₽<span class="per-month">8 400 ₽/мес</span></span>
+          </div>
+          <div class="price-plan">
+            <span class="sessions">8 занятий</span>
+            <span class="price">1 850 ₽<span class="per-month">14 800 ₽/мес</span></span>
+          </div>
+          <div class="pro-level">
+            Проф. уровень: +10% к тарифу/Подготовка к поступлению
+            <br> Только индивидуальные занятия
+          </div>
+        </div>
+      </div>
+
+      <!-- Барабаны -->
+      <div class="pricing-card">
+        <div class="card-header drums">
+          <h2 class="instrument-name">Барабаны</h2>
+          <p class="lesson-type">Индивидуальные занятия</p>
+        </div>
+        <div class="card-body">
+          <div class="price-plan">
+            <span class="sessions">4 занятия</span>
+            <span class="price">2 000 ₽<span class="per-month">8 000 ₽/мес</span></span>
+          </div>
+          <div class="price-plan">
+            <span class="sessions">8 занятий</span>
+            <span class="price">1 800 ₽<span class="per-month">14 400 ₽/мес</span></span>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Гитара -->
+      <div class="pricing-card">
+        <div class="card-header guitar">
+          <h2 class="instrument-name">Гитара</h2>
+          <p class="lesson-type">Индивидуальные занятия/
+            <br> Групповые занятия</p>
+        </div>
+        <div class="card-body">
+          <div class="price-plan">
+            <span class="sessions">4 занятия</span>
+            <span class="price">1 900 ₽/1 400 ₽<span class="per-month">7 600 ₽/мес (5 600 ₽/мес)</span></span>
+          </div>
+          <div class="price-plan">
+            <span class="sessions">8 занятий</span>
+            <span class="price">1 700 ₽/1 100 ₽<span class="per-month">13 600 ₽/мес(8 800 ₽/мес)</span></span>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="note">
+        <h3>Важная информация:</h3>
+        <p>✓ Длительность занятия: 55 минут (стандартное) / 30 минут (детям 6-8 лет)</p>
+        <p>✓ Пробное занятие: 790 рублей (индивидуальное) / 590 рублей (групповое)</p>
+        <p>✓ Абонементы действуют 30 календарных дней с даты первого занятия</p>
+        <p>✓ В стоимость входит пользование инструментом (кроме ударных)</p>
+        <p>✓ При оплате 3-х месяцев вперед - скидка 5%</p>
+      </div>
+
+  </section>
+
+  <section class="form">
+    <div class="container-form">
+      <div class="header-form">
+        <h2>Запись в музыкальную академию</h2>
+        <p class="p">Выберите направление обучения, заполните форму, и наш менеджер свяжется с вами для уточнения деталей</p>
+      </div>
+      <div class="form-container">
+        <form id="lesson-form">
+          <div class="form-group">
+            <label for="name">Ваше имя</label>
+            <input type="text" id="name" class="form-control" placeholder="Александра Петрова" required>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Телефон</label>
+            <input type="tel" id="phone" class="form-control" placeholder="+7 (000) 000-00-00" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Электронная почта</label>
+            <input type="email" id="email" class="form-control" placeholder="example@mail.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="direction">Направление</label>
+            <select id="direction" class="form-control" required>
+              <option value="" disabled selected>Выберите направление обучения</option>
+              <option value="vocal">Вокал</option>
+              <option value="piano">Фортепиано</option>
+              <option value="drums">Барабаны</option>
+              <option value="guitar">Гитара</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="level">Уровень подготовки</label>
+            <select id="level" class="form-control" required>
+              <option value="" disabled selected>Выберите ваш текущий уровень</option>
+              <option value="beginner">Начинающий (0 опыта)</option>
+              <option value="basic">Базовый (небольшой опыт)</option>
+              <option value="intermediate">Средний (регулярно занимаюсь)</option>
+              <option value="advanced">Продвинутый (могу играть сложные произведения)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Дополнительная информация</label>
+            <textarea id="message" class="form-control" placeholder="Предпочтительное время занятий, музыкальные цели, особенности..."></textarea>
+          </div>
+
+          <button type="submit" class="btn-submit">
+            Отправить заявку <i class="fas fa-arrow-right"></i>
+          </button>
+        </form>
+
+        <div class="success-message" id="success-message">
+          <i class="fas fa-check-circle"></i>
+          <h3>Заявка успешно отправлена!</h3>
+          <p>Мы свяжемся с вами в ближайшее время для уточнения деталей</p>
+        </div>
+
+        <p class="info-text">
+          Нажимая на кнопку, вы соглашаетесь с
+          <a href="#">политикой конфиденциальности</a> и
+          <a href="#">условиями обработки персональных данных</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews" class="reviews">
+    <div class="otziv">
+      <h2 class="section-title">Отзывы</h2>
+      <p class="subtitle">Что говорят наши ученики и их родители об обучении в академии</p>
+      <div class="reviews-container">
+        <!-- Отзыв от мамы -->
+        <div class="review-card">
+          <div class="review-header">
+            <div class="avatar">👤</div>
+            <div class="reviewer-info">
+              <div class="reviewer-name">Ольга Смирнова</div>
+              <div class="reviewer-desc">Мама двух учеников (8 и 12 лет)</div>
+            </div>
+          </div>
+
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <span class="rating">5.0</span>
+          </div>
+
+          <div class="review-content">
+            <p>Мои дети занимаются в MeloDi уже второй год - сын на барабанах, дочь учится играть на фортепиано. Преподаватели академии нашли подход к каждому ребенку, смогли заинтересовать музыкой. Особенно хочу отметить современное оборудование и инструменты - все в идеальном состоянии, дети занимаются с удовольствием. Атмосфера в академии очень теплая и творческая, персонал всегда приветливый.</p>
+          </div>
+
+          <div class="review-date">02 июля 2025 г.</div>
+        </div>
+
+        <!-- Отзыв от девушки 26 лет -->
+        <div class="review-card">
+          <div class="review-header">
+            <div class="avatar">👤</div>
+            <div class="reviewer-info">
+              <div class="reviewer-name">Анна Козлова</div>
+              <div class="reviewer-desc">26 лет, эстрадный вокал</div>
+            </div>
+          </div>
+
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <span class="rating">5.0</span>
+          </div>
+
+          <div class="review-content">
+            <p>Пришла в MeloDi с нулевым опытом, но с мечтой научиться петь. Занимаюсь уже 9 месяцев и не перестаю удивляться своим успехам! Преподаватель по вокалу - настоящий профессионал, который умеет объяснить сложные вещи простым языком. Обстановка в академии вдохновляющая - современные классы, отличная акустика, уютная зона ожидания. Особенно ценю индивидуальный подход.</p>
+          </div>
+
+          <div class="review-date">28 июня 2025 г.</div>
+        </div>
+        <!-- Отзыв от бизнесмена -->
+        <div class="review-card">
+          <div class="review-header">
+            <div class="avatar">👤</div>
+            <div class="reviewer-info">
+              <div class="reviewer-name">Артем Волков</div>
+              <div class="reviewer-desc">35 лет, фортепиано</div>
+            </div>
+          </div>
+
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <span class="rating">5.0</span>
+          </div>
+
+          <div class="review-content">
+            <p>Как владелец бизнеса, я ценю качество и профессионализм - и MeloDi полностью оправдала мои ожидания. Занимаюсь фортепиано после работы, это мой способ расслабиться. Преподаватель умеет найти подход к взрослым ученикам, не дает скучать на занятиях. В академии потрясающая акустика в классах и рояли высшего класса. Обстановка располагает к творчеству.</p>
+          </div>
+
+          <div class="review-date">10 апреля 2025 г.</div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="contacts" class="contacts">
+    <div class="container">
+      <div class="contacts__inner">
+        <div class="contacts__info">
+          <h2 class="section-title">Контакты</h2>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt contact-icon"></i>
+            <span>улица Чайковского, 12, Красноярск, 660123</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone contact-icon"></i>
+            <span>+7 (391) 246-08-80</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-envelope contact-icon"></i>
+            <span>info@melodi.ru</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-clock contact-icon"></i>
+            <span>Пн-Сб 10:00 - 20:00</span>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link" aria-label="Telegram"><i
+                                    class="fab fa-telegram-plane"></i></a>
+          </div>
+        </div>
+        <div class="contacts__map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2230.1514721090834!2d92.9681981775713!3d56.01604927318278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5cd7a5692372e4d1%3A0x5282d3a49733a16!2z0YPQuy4g0KfQsNC50LrQvtCy0YHQutC-0LPQviwgMTIsINCa0YDQsNGB0L3QvtGP0YDRgdC6LCDQmtGA0LDRgdC90L7Rj9GA0YHQutC40Lkg0LrRgNCw0LksIDY2MDAwNA!5e0!3m2!1sru!2sru!4v1752415514629!5m2!1sru!2sru" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <a href="#" class="logo">Melo<span>Di</span></a>
+                    <p class="footer__text">От первой ноты к виртуозности: MeloDi</p>
+                </div>
+                <div class="footer__nav">
+                    <h3 class="footer__title">Навигация</h3>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">О нас </a></li>
+                        <li><a href="#menu" class="footer__link">Направления</a></li>
+                        <li><a href="#about" class="footer__link">Стоимость</a></li>
+                        <li><a href="#reviews" class="footer__link">Отзывы</a></li>
+                        <li><a href="#contacts" class="footer__link">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer__subscribe">
+                    <h3 class="footer__title">Подписка</h3>
+                    <p class="footer__text">Подпишитесь на наши новости и акции</p>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Ваш email" class="subscribe-input">
+                        <button type="submit" class="subscribe-btn"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">© Copyright 2025</p>
+            </div>
+        </div>
+    </footer>
+
+<script src="js/otpravka.js"></script>
+<script src="js/menu.js"></script>
+
+</body>
+
+</html>

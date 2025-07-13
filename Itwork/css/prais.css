@@ -1,0 +1,121 @@
+h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  opacity: 0.9;
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.pricing-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin: 40px;
+}
+
+.pricing-card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.pricing-card:hover {
+  transform: translateY(-10px);
+}
+
+.card-header {
+  padding: 25px 20px;
+  color: white;
+  text-align: center;
+}
+
+.vocal {
+  background: linear-gradient(90deg, #641646 0%, #ff00dd 100%);
+}
+.piano {
+  background: linear-gradient(90deg, #641646 0%, #ff00aa 100%);
+}
+.drums {
+  background: linear-gradient(90deg, #641646 0%, #a900ec 100%);
+}
+.guitar {
+  background: linear-gradient(90deg, #641646 0%, #9e00b3 100%);
+}
+
+
+.instrument-name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+
+.lesson-type {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.card-body {
+  padding: 25px;
+}
+
+.price-plan {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+  padding-bottom: 18px;
+  border-bottom: 1px dashed #eee;
+}
+
+.sessions {
+  font-weight: 600;
+  color: #555;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #2c3e50;
+}
+
+.per-month {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: normal;
+  color: #777;
+  margin-top: 3px;
+}
+
+.pro-level {
+  background: #f8f9fa;
+  border-left: 4px solid #9900ff;
+  padding: 12px 15px;
+  border-radius: 0 5px 5px 0;
+  margin-top: 20px;
+  font-size: 0.95rem;
+}
+
+.note {
+  background: #8b16641f;
+
+  padding: 20px;
+  border-radius: 12px;
+  border-left: 5px solid #9900ff;
+  margin-top: 30px;
+  font-size: 0.95rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.note h3 {
+  margin-top: 0;
+  color: #9900ff;
+}
