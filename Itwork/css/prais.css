@@ -1,4 +1,4 @@
-h1 {
+h2 {
   font-size: 2.8rem;
   margin-bottom: 10px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
@@ -14,12 +14,13 @@ h1 {
   justify-content: center;
 }
 
-.pricing-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 25px;
-  margin: 40px;
-}
+ .pricing-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+            margin: 10px;
+        }
 
 .pricing-card {
   background: white;

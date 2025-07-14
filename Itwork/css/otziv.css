@@ -159,15 +159,7 @@
             border-color: #ccc;
         }
         
-        footer {
-            color: #999;
-            text-align: center;
-            padding: 50px 0 30px;
-            width: 100%;
-            margin-top: auto;
-            border-top: 1px solid #eee;
-            font-size: 0.9rem;
-        }
+
         
         @media (max-width: 768px) {
             .reviews-container {

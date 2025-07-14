@@ -334,7 +334,7 @@ ul {
 
 .reviews__slider {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(3fr, minmax(300px, 1fr));
   gap: 30px;
 }
 
@@ -566,13 +566,13 @@ ul {
     top: 80px;
     left: -100%;
     width: 80%;
-    height: calc(100vh - 80px);
+    height: autofill;
     background-color: var(--white-color);
     box-shadow: var(--shadow);
     transition: var(--transition);
     z-index: 999;
     flex-direction: column;
-    padding: 30px;
+    padding: 10px;
   }
 
   .nav.active {
@@ -618,9 +618,7 @@ ul {
     height: 300px;
   }
 
-  .pricing-container {
-    grid-template-columns: 1fr;
-  }
+  
 
   h1 {
     font-size: 2.2rem;
@@ -646,7 +644,7 @@ ul {
 
   .faq-question {
     font-weight: 600;
-    color: #3498db;
+    color: #d534db;
     margin-bottom: 8px;
   }
 }
